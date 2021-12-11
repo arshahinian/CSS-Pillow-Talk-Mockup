@@ -1,3 +1,151 @@
+* {
+  /* border: 1px solid black; */
+  padding: 1px; 
+  margin: 1px;
+}
 body {
   background: peachpuff;
+}
+.container {
+  display:flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content:left;
+  min-height: 70vh;
+  min-width: 40vw;      
+}
+.sub-container {
+  display:flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content:left;
+  min-height: 30vh;
+  max-width: 100vw;
+}
+.a {
+  min-width: 60vw;
+  max-height: 10vh;  
+  flex-grow: 1;
+  background-color: #444444;
+  color:#FFFFFF; 
+}
+.b {  
+  min-width: 30vw;
+  flex-grow: 1; 
+  background-color: #555555;
+  color:#EEEEEE; 
+}
+.c {  
+  min-width: 30vw;
+  flex-grow: 1; 
+  background-color: #666666;
+  color:#DDDDDD;  
+  margin: 3px;
+}
+.d {
+  min-width: 30vw;
+  flex-grow: 1; 
+  background-color: #777777;
+  color:#CCCCCC;
+  margin: 3px;
+}
+.e {
+  min-width: 30vw;
+  flex-grow: 1;  
+  background-color: #888888;
+  color:#111111;  
+  margin: 3px;
+}
+.f {   
+  min-width: 30vw;
+  flex-grow: 1; 
+  background-color: #999999;
+  color:#000000;
+}
+.g {
+  min-width: 30vw;
+  flex-grow: 1;  
+  background-color: #888888;
+  color:#111111;  
+  margin: 3px;
+}
+.h {
+  min-width: 60vw;
+  min-height: 25vh;
+  flex-grow: 1;  
+  background-color: #888888;
+  color:#111111;  
+  margin: 3px;
+}
+@media (min-width: 600px) {  
+  .container {
+    display:flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content:left;
+    min-height: 80vh;
+    min-width: 80vh;      
+  }
+  .sub-container {
+    display:flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content:left;
+    min-height: 40vh;
+    max-width: 60vw;
+  }
+  .a {
+    min-width: 95vw; 
+    max-height: 20vh;  
+    flex-grow: 1;
+    background-color: #AA4444;
+    color:#FFFFFF; 
+  }
+  .b {  
+    min-width: 15vw;
+    flex-grow: 1; 
+    background-color: #AA5555;
+    color:#EEEEEE; 
+  }
+  .c {  
+    min-width: 15vw;
+    flex-grow: 1; 
+    background-color: #AA6666;
+    color:#DDDDDD;  
+    margin: 3px;
+  }
+  .d {
+    min-width: 15vw;
+    flex-grow: 1; 
+    background-color: #AA7777;
+    color:#CCCCCC;
+    margin: 3px;
+  }
+  .e {
+    min-width: 15vw;
+    flex-grow: 1;  
+    background-color: #AA8888;
+    color:#111111;  
+    margin: 3px;
+  }
+  .f {   
+    min-width: 15vw;
+    flex-grow: 1; 
+    background-color: #AA9999;
+    color:#000000;
+  }
+  .g {
+    min-width: 15vw;
+    flex-grow: 1;  
+    background-color: #AA8888;
+    color:#111111;  
+    margin: 3px;
+  }
+  .h {
+    min-width: 10vw;
+    flex-grow: 1;  
+    background-color: #AA8888;
+    color:#111111;  
+    margin: 3px;
+  }    
 }
